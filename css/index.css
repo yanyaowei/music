@@ -175,8 +175,8 @@ dd {
 
 .disc {
     position: absolute;
-    left: 73px;
-    top: 60px;
+    left: 77px;
+    top: 58px;
     z-index: 9;
 }
 
@@ -184,8 +184,8 @@ dd {
     position: absolute;
     left: 100px;
     top: 100px;
-    width: 200px;
-    height: 200px;
+    width: 183px;
+    height: 183px;
     border-radius: 75px;
     z-index: 8;
 }
