@@ -50,7 +50,7 @@ var app = new Vue({
     // 歌曲搜索
     searchMusic: function() {
       var that = this;
-      axios.get("https://autumnfish.cn/search?keywords=" + this.query).then(
+      axios.get("http://msearchcdn.kugou.com/api/v3/search/song?showtype=14&highlight=em&pagesize=30&tag_aggr=1&tagtype=%E5%85%A8%E9%83%A8&plat=0&sver=5&keyword=%E4%BD%A0%E5%A5%BD&correct=1&api_ver=1&version=9108&page=1&area_code=1&tag=1&with_res_tag=1?keywords=" + this.query).then(
         function(response) {
           // console.log(response);
           that.musicList = response.data.result.songs;

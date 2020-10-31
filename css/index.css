@@ -182,10 +182,10 @@ dd {
 
 .cover {
     position: absolute;
-    left: 125px;
-    top: 112px;
-    width: 150px;
-    height: 150px;
+    left: 100px;
+    top: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 75px;
     z-index: 8;
 }
